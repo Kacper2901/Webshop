@@ -1,0 +1,61 @@
+# --- Systemowe ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Wirtualne środowisko ---
+venv/
+.env/
+env/
+ENV/
+.venv/
+*.env
+
+# --- Pliki konfiguracyjne IDE / edytorów ---
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Django / Python ---
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# --- Migracje (opcjonalnie: tylko te tymczasowe) ---
+**/migrations/__pycache__/
+# jeśli chcesz ignorować całe migracje (niezalecane na produkcji)
+# **/migrations/
+
+# --- Kompilacje, cache, testy ---
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+
+# --- VS Code Python environment ---
+.python-version
+
+# --- JetBrains cache ---
+.idea/
