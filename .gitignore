@@ -50,6 +50,8 @@ htmlcov/
 .tox/
 .pytest_cache/
 .cache/
+Drutzam/Drutzam/settings.py
+
 
 # --- Docker ---
 *.pid
