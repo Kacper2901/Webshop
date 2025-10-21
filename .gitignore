@@ -32,6 +32,7 @@ db.sqlite3
 media/
 staticfiles/
 local_settings.py
+*/settings.py
 
 # --- Migracje (opcjonalnie: tylko te tymczasowe) ---
 **/migrations/__pycache__/
